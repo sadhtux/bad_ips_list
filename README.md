@@ -32,3 +32,16 @@ saludos
 @sadhtux
 
 
+How to integrate these lists into a firewall?
+
+    FortiGate
+        Menu "Security Fabric → External Connectors → Create New → IP Address"
+        Take a URL in the "Links" section below
+        Then, the lists can be used in "Firewall Policy" as "IP Address Threat Feed" objects.
+        Implementation of the full list validated even on the smallest FortiGate 40F appliance
+        More information: on this page Fortinet help page
+    Palo Alto: here. PA-3200 model and above limited to 150k IP (use full-aa.txt only), lower models limited to 50k IP (use full-40k.txt file)
+    Sophos : lien.
+    pfSense: via this GitHub repo which allows you to implement an API in pfSense. Be careful, by default the maximum number of objects is 400k. Possibility to increase this value if your pfSense has a lot of RAM. More info here here.
+    OPNsense : via API (doc. Change the maximum number of entries for an alias: "Firewall -> Settings -> Advanced -> Firewall Maximum Table Entries".
+    IPTables with the "ipset" package: tutorial 1 tutorial 2
