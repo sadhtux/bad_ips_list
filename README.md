@@ -14,12 +14,11 @@ greetings
 - Take a URL in the "Links" section below
 - Then, the lists can be used in "Firewall Policy" as "IP Address Threat Feed" objects.
 - Implementation of the full list validated even on the smallest FortiGate 40F appliance
-- More information: [Fortinet help page](https://breakdance.github.io/breakdance/)
+- More information: [Fortinet help page](https://docs.fortinet.com/document/fortigate/6.4.2/administration-guide/891236/external-blocklist-policy)
 
 ## Palo Alto
 - PA-3200 model and above limited to 150k IP
-- lower models limited to 50k IP
-- More information: [on this page](https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/external-dynamic-list)
+- lower models limited to 50k IP - More information: [on this page](https://docs.paloaltonetworks.com/pan-os/9-1/pan-os-admin/policy/use-an-external-dynamic-list-in-policy/external-dynamic-list)
 
 ## Sophos
 - More information: [on this page](https://docs.sophos.com/nsg/sophos-firewall/21.0/Help/en-us/webhelp/onlinehelp/AdministratorHelp/ActiveThreatResponse/ConfigureFeeds/ThirdPartyThreatFeeds/index.html)
@@ -42,4 +41,4 @@ greetings
 [![A mushroom-head robot drinking bubble tea](https://raw.githubusercontent.com/romainmarcoux/romainmarcoux/main/img/buymeacoffee.png 'Buy me a coffee here')](https://buymeacoffee.com/duarteskorn)
 
 ## License
-GPL-3.0 license 
+GPL-3.0 license
